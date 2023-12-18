@@ -6,6 +6,7 @@ export class AuthService {
   client = new Client();
   account;
 
+  //setting up client and craeting account using constructor
   constructor() {
     this.client
       .setEndpoint(conf.appwriteUrl)
